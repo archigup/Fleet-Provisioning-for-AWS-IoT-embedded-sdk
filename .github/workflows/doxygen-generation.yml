@@ -9,3 +9,5 @@ jobs:
     steps:
       - name: Doxygen generation
         uses: FreeRTOS/CI-CD-Github-Actions/doxygen-generation@main
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,6 +1,8 @@
 {
   "name": "Fleet-Provisioning-for-AWS-IoT-embedded-sdk",
-  "releases": [],
+  "releases": [
+    "test"
+  ],
   "branches": [
     "main"
   ]
